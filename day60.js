@@ -1,6 +1,6 @@
-// Counter js file in electron app
+// Counter js file in electron app 
 
-
+// import part
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import {

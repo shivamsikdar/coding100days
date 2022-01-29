@@ -15,7 +15,7 @@ import { selectDirectName } from '../features/appSlice';
 function ChatInput({ channelName, channelId, chatRef, query }) {
     const [input, setInput] = useState('');
     const [user] = useAuthState(auth);
-
+//some basic
     const directName = useSelector(selectDirectName);
     // console.log('query', query);
     // console.log('direct name', directName)

@@ -12,4 +12,4 @@ function sumArray (arr){
     return sum;
 
 }
-console.log(sumArray([[3, 2], [1], [4, 12]]));
+console.log(sumArray([[9, 5], [1], [7, 22]]));
